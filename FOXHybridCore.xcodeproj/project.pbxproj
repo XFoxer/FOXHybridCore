@@ -1,0 +1,749 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		662F5157204963F9005552CE /* FOXNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 662F5156204963F9005552CE /* FOXNavigationViewController.m */; };
+		66601730204D648200D02862 /* FOXProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6660172F204D648200D02862 /* FOXProgressView.m */; };
+		666AD3D12044FF6700ED5516 /* FOXRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 666AD3D02044FF6700ED5516 /* FOXRootViewController.m */; };
+		667B645A2046B99F000CC698 /* foxwebview_bridge_inject.js in Resources */ = {isa = PBXBuildFile; fileRef = 667B64592046B99F000CC698 /* foxwebview_bridge_inject.js */; };
+		6684F31B204F8CA4006BF67F /* FOXBridgeOCEnumeration.m in Sources */ = {isa = PBXBuildFile; fileRef = 6684F31A204F8CA4006BF67F /* FOXBridgeOCEnumeration.m */; };
+		6684F31E204F8EEB006BF67F /* FOXBridgeJSEnumeration.m in Sources */ = {isa = PBXBuildFile; fileRef = 6684F31D204F8EEB006BF67F /* FOXBridgeJSEnumeration.m */; };
+		6684F3B920501B72006BF67F /* ExampleApp.html in Resources */ = {isa = PBXBuildFile; fileRef = 6684F3B820501B72006BF67F /* ExampleApp.html */; };
+		66AE572420490A6500C1214D /* FOXWebViewResourceLoadAccessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 66AE571920490A6500C1214D /* FOXWebViewResourceLoadAccessor.m */; };
+		66AE572520490A6500C1214D /* FOXWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66AE571A20490A6500C1214D /* FOXWebViewController.m */; };
+		66AE572620490A6500C1214D /* FOXWebBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66AE571E20490A6500C1214D /* FOXWebBrowserViewController.m */; };
+		66AE572720490A6500C1214D /* FOXDataSetPlaceholderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 66AE572120490A6500C1214D /* FOXDataSetPlaceholderView.m */; };
+		66AE572820490A6500C1214D /* FOXDataSetPlaceholderView+FOXFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 66AE572220490A6500C1214D /* FOXDataSetPlaceholderView+FOXFactory.m */; };
+		66C0C4182041478C002A3DA1 /* FOXAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66C0C4172041478C002A3DA1 /* FOXAppDelegate.m */; };
+		66C0C41B2041478C002A3DA1 /* FOXTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66C0C41A2041478C002A3DA1 /* FOXTestViewController.m */; };
+		66C0C4202041478C002A3DA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66C0C41F2041478C002A3DA1 /* Assets.xcassets */; };
+		66C0C4232041478C002A3DA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66C0C4212041478C002A3DA1 /* LaunchScreen.storyboard */; };
+		66C0C4262041478C002A3DA1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 66C0C4252041478C002A3DA1 /* main.m */; };
+		66C0C4302041478C002A3DA1 /* FOXHybridCoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66C0C42F2041478C002A3DA1 /* FOXHybridCoreTests.m */; };
+		66C0C43B2041478D002A3DA1 /* FOXHybridCoreUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66C0C43A2041478D002A3DA1 /* FOXHybridCoreUITests.m */; };
+		66C94DF42047E8C200621677 /* sampleLocal.html in Resources */ = {isa = PBXBuildFile; fileRef = 66C94DF32047E8C200621677 /* sampleLocal.html */; };
+		EA6D3D82E1F98D88545732E2 /* libPods-FOXHybridCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 316238128D7964F43C67DC21 /* libPods-FOXHybridCore.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		66C0C42C2041478C002A3DA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66C0C40B2041478C002A3DA1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66C0C4122041478C002A3DA1;
+			remoteInfo = FOXHybridCore;
+		};
+		66C0C4372041478D002A3DA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66C0C40B2041478C002A3DA1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66C0C4122041478C002A3DA1;
+			remoteInfo = FOXHybridCore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		303E2670A5BA305B8F6A7E8C /* Pods-FOXHybridCore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FOXHybridCore.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FOXHybridCore/Pods-FOXHybridCore.debug.xcconfig"; sourceTree = "<group>"; };
+		316238128D7964F43C67DC21 /* libPods-FOXHybridCore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FOXHybridCore.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F508C05A4B09A1AC62BB0D3 /* Pods-FOXHybridCore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FOXHybridCore.release.xcconfig"; path = "Pods/Target Support Files/Pods-FOXHybridCore/Pods-FOXHybridCore.release.xcconfig"; sourceTree = "<group>"; };
+		662F5155204963F9005552CE /* FOXNavigationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FOXNavigationViewController.h; sourceTree = "<group>"; };
+		662F5156204963F9005552CE /* FOXNavigationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FOXNavigationViewController.m; sourceTree = "<group>"; };
+		6660172E204D648200D02862 /* FOXProgressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FOXProgressView.h; sourceTree = "<group>"; };
+		6660172F204D648200D02862 /* FOXProgressView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FOXProgressView.m; sourceTree = "<group>"; };
+		666AD3CF2044FF6700ED5516 /* FOXRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FOXRootViewController.h; sourceTree = "<group>"; };
+		666AD3D02044FF6700ED5516 /* FOXRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FOXRootViewController.m; sourceTree = "<group>"; };
+		667B64592046B99F000CC698 /* foxwebview_bridge_inject.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = foxwebview_bridge_inject.js; path = Resources/foxwebview_bridge_inject.js; sourceTree = SOURCE_ROOT; };
+		6684F319204F8CA4006BF67F /* FOXBridgeOCEnumeration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FOXBridgeOCEnumeration.h; sourceTree = "<group>"; };
+		6684F31A204F8CA4006BF67F /* FOXBridgeOCEnumeration.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FOXBridgeOCEnumeration.m; sourceTree = "<group>"; };
+		6684F31C204F8EEB006BF67F /* FOXBridgeJSEnumeration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FOXBridgeJSEnumeration.h; sourceTree = "<group>"; };
+		6684F31D204F8EEB006BF67F /* FOXBridgeJSEnumeration.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FOXBridgeJSEnumeration.m; sourceTree = "<group>"; };
+		6684F31F204FB241006BF67F /* FOXWebViewJavaScriptProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FOXWebViewJavaScriptProtocol.h; sourceTree = "<group>"; };
+		6684F3B820501B72006BF67F /* ExampleApp.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = ExampleApp.html; sourceTree = "<group>"; };
+		66AE571920490A6500C1214D /* FOXWebViewResourceLoadAccessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FOXWebViewResourceLoadAccessor.m; sourceTree = "<group>"; };
+		66AE571A20490A6500C1214D /* FOXWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FOXWebViewController.m; sourceTree = "<group>"; };
+		66AE571B20490A6500C1214D /* FOXWebBrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FOXWebBrowserViewController.h; sourceTree = "<group>"; };
+		66AE571C20490A6500C1214D /* FOXWebViewResourceLoadAccessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FOXWebViewResourceLoadAccessor.h; sourceTree = "<group>"; };
+		66AE571D20490A6500C1214D /* FOXWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FOXWebViewController.h; sourceTree = "<group>"; };
+		66AE571E20490A6500C1214D /* FOXWebBrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FOXWebBrowserViewController.m; sourceTree = "<group>"; };
+		66AE572020490A6500C1214D /* FOXDataSetPlaceholderView+FOXFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FOXDataSetPlaceholderView+FOXFactory.h"; sourceTree = "<group>"; };
+		66AE572120490A6500C1214D /* FOXDataSetPlaceholderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FOXDataSetPlaceholderView.m; sourceTree = "<group>"; };
+		66AE572220490A6500C1214D /* FOXDataSetPlaceholderView+FOXFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FOXDataSetPlaceholderView+FOXFactory.m"; sourceTree = "<group>"; };
+		66AE572320490A6500C1214D /* FOXDataSetPlaceholderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FOXDataSetPlaceholderView.h; sourceTree = "<group>"; };
+		66AE57292049144E00C1214D /* FOXHybridCore-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FOXHybridCore-Prefix.pch"; sourceTree = "<group>"; };
+		66C0C4132041478C002A3DA1 /* FOXHybridCore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FOXHybridCore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		66C0C4162041478C002A3DA1 /* FOXAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FOXAppDelegate.h; sourceTree = "<group>"; };
+		66C0C4172041478C002A3DA1 /* FOXAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FOXAppDelegate.m; sourceTree = "<group>"; };
+		66C0C4192041478C002A3DA1 /* FOXTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FOXTestViewController.h; sourceTree = "<group>"; };
+		66C0C41A2041478C002A3DA1 /* FOXTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FOXTestViewController.m; sourceTree = "<group>"; };
+		66C0C41F2041478C002A3DA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		66C0C4222041478C002A3DA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		66C0C4242041478C002A3DA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66C0C4252041478C002A3DA1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		66C0C42B2041478C002A3DA1 /* FOXHybridCoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FOXHybridCoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		66C0C42F2041478C002A3DA1 /* FOXHybridCoreTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FOXHybridCoreTests.m; sourceTree = "<group>"; };
+		66C0C4312041478D002A3DA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66C0C4362041478D002A3DA1 /* FOXHybridCoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FOXHybridCoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		66C0C43A2041478D002A3DA1 /* FOXHybridCoreUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FOXHybridCoreUITests.m; sourceTree = "<group>"; };
+		66C0C43C2041478D002A3DA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66C94DF32047E8C200621677 /* sampleLocal.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = sampleLocal.html; path = Resources/sampleLocal.html; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66C0C4102041478C002A3DA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA6D3D82E1F98D88545732E2 /* libPods-FOXHybridCore.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66C0C4282041478C002A3DA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66C0C4332041478D002A3DA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6626C25A204BFAD40018FF9B /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				6660172E204D648200D02862 /* FOXProgressView.h */,
+				6660172F204D648200D02862 /* FOXProgressView.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		666AD3CE2044FF1200ED5516 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				66AE57292049144E00C1214D /* FOXHybridCore-Prefix.pch */,
+				66C0C41F2041478C002A3DA1 /* Assets.xcassets */,
+				66C0C4212041478C002A3DA1 /* LaunchScreen.storyboard */,
+				66C0C4242041478C002A3DA1 /* Info.plist */,
+			);
+			path = "Support Files";
+			sourceTree = "<group>";
+		};
+		6684F318204F8C61006BF67F /* BridgeOptions */ = {
+			isa = PBXGroup;
+			children = (
+				6684F319204F8CA4006BF67F /* FOXBridgeOCEnumeration.h */,
+				6684F31A204F8CA4006BF67F /* FOXBridgeOCEnumeration.m */,
+				6684F31C204F8EEB006BF67F /* FOXBridgeJSEnumeration.h */,
+				6684F31D204F8EEB006BF67F /* FOXBridgeJSEnumeration.m */,
+			);
+			path = BridgeOptions;
+			sourceTree = "<group>";
+		};
+		66AE571820490A6500C1214D /* WebContainer */ = {
+			isa = PBXGroup;
+			children = (
+				6684F31F204FB241006BF67F /* FOXWebViewJavaScriptProtocol.h */,
+				66AE571B20490A6500C1214D /* FOXWebBrowserViewController.h */,
+				66AE571E20490A6500C1214D /* FOXWebBrowserViewController.m */,
+				66AE571D20490A6500C1214D /* FOXWebViewController.h */,
+				66AE571A20490A6500C1214D /* FOXWebViewController.m */,
+				66AE571C20490A6500C1214D /* FOXWebViewResourceLoadAccessor.h */,
+				66AE571920490A6500C1214D /* FOXWebViewResourceLoadAccessor.m */,
+			);
+			path = WebContainer;
+			sourceTree = "<group>";
+		};
+		66AE571F20490A6500C1214D /* Placeholder */ = {
+			isa = PBXGroup;
+			children = (
+				66AE572320490A6500C1214D /* FOXDataSetPlaceholderView.h */,
+				66AE572120490A6500C1214D /* FOXDataSetPlaceholderView.m */,
+				66AE572020490A6500C1214D /* FOXDataSetPlaceholderView+FOXFactory.h */,
+				66AE572220490A6500C1214D /* FOXDataSetPlaceholderView+FOXFactory.m */,
+			);
+			path = Placeholder;
+			sourceTree = "<group>";
+		};
+		66C0C40A2041478C002A3DA1 = {
+			isa = PBXGroup;
+			children = (
+				66C0C4152041478C002A3DA1 /* FOXHybridCore */,
+				66C94DF72047EE5500621677 /* Resources */,
+				666AD3CE2044FF1200ED5516 /* Support Files */,
+				66C0C42E2041478C002A3DA1 /* FOXHybridCoreTests */,
+				66C0C4392041478D002A3DA1 /* FOXHybridCoreUITests */,
+				66C0C4142041478C002A3DA1 /* Products */,
+				C13BDE925310D5B615EDB162 /* Pods */,
+				9F3FDBCE1F6FA48D8440A3D5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		66C0C4142041478C002A3DA1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66C0C4132041478C002A3DA1 /* FOXHybridCore.app */,
+				66C0C42B2041478C002A3DA1 /* FOXHybridCoreTests.xctest */,
+				66C0C4362041478D002A3DA1 /* FOXHybridCoreUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66C0C4152041478C002A3DA1 /* FOXHybridCore */ = {
+			isa = PBXGroup;
+			children = (
+				66C0C4252041478C002A3DA1 /* main.m */,
+				66C0C4162041478C002A3DA1 /* FOXAppDelegate.h */,
+				66C0C4172041478C002A3DA1 /* FOXAppDelegate.m */,
+				66C0C4192041478C002A3DA1 /* FOXTestViewController.h */,
+				66C0C41A2041478C002A3DA1 /* FOXTestViewController.m */,
+				666AD3CF2044FF6700ED5516 /* FOXRootViewController.h */,
+				666AD3D02044FF6700ED5516 /* FOXRootViewController.m */,
+				662F5155204963F9005552CE /* FOXNavigationViewController.h */,
+				662F5156204963F9005552CE /* FOXNavigationViewController.m */,
+				6684F318204F8C61006BF67F /* BridgeOptions */,
+				6626C25A204BFAD40018FF9B /* Utils */,
+				66AE571F20490A6500C1214D /* Placeholder */,
+				66AE571820490A6500C1214D /* WebContainer */,
+			);
+			path = FOXHybridCore;
+			sourceTree = "<group>";
+		};
+		66C0C42E2041478C002A3DA1 /* FOXHybridCoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				66C0C42F2041478C002A3DA1 /* FOXHybridCoreTests.m */,
+				66C0C4312041478D002A3DA1 /* Info.plist */,
+			);
+			path = FOXHybridCoreTests;
+			sourceTree = "<group>";
+		};
+		66C0C4392041478D002A3DA1 /* FOXHybridCoreUITests */ = {
+			isa = PBXGroup;
+			children = (
+				66C0C43A2041478D002A3DA1 /* FOXHybridCoreUITests.m */,
+				66C0C43C2041478D002A3DA1 /* Info.plist */,
+			);
+			path = FOXHybridCoreUITests;
+			sourceTree = "<group>";
+		};
+		66C94DF72047EE5500621677 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6684F3B820501B72006BF67F /* ExampleApp.html */,
+				66C94DF32047E8C200621677 /* sampleLocal.html */,
+				667B64592046B99F000CC698 /* foxwebview_bridge_inject.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9F3FDBCE1F6FA48D8440A3D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				316238128D7964F43C67DC21 /* libPods-FOXHybridCore.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C13BDE925310D5B615EDB162 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				303E2670A5BA305B8F6A7E8C /* Pods-FOXHybridCore.debug.xcconfig */,
+				4F508C05A4B09A1AC62BB0D3 /* Pods-FOXHybridCore.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66C0C4122041478C002A3DA1 /* FOXHybridCore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66C0C43F2041478D002A3DA1 /* Build configuration list for PBXNativeTarget "FOXHybridCore" */;
+			buildPhases = (
+				587D0D60B3638E6E572EDCBC /* [CP] Check Pods Manifest.lock */,
+				66C0C40F2041478C002A3DA1 /* Sources */,
+				66C0C4102041478C002A3DA1 /* Frameworks */,
+				66C0C4112041478C002A3DA1 /* Resources */,
+				3480464176B51A9479EB9160 /* [CP] Embed Pods Frameworks */,
+				40D74766007081BFA3DCE19A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FOXHybridCore;
+			productName = FOXHybridCore;
+			productReference = 66C0C4132041478C002A3DA1 /* FOXHybridCore.app */;
+			productType = "com.apple.product-type.application";
+		};
+		66C0C42A2041478C002A3DA1 /* FOXHybridCoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66C0C4422041478D002A3DA1 /* Build configuration list for PBXNativeTarget "FOXHybridCoreTests" */;
+			buildPhases = (
+				66C0C4272041478C002A3DA1 /* Sources */,
+				66C0C4282041478C002A3DA1 /* Frameworks */,
+				66C0C4292041478C002A3DA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66C0C42D2041478C002A3DA1 /* PBXTargetDependency */,
+			);
+			name = FOXHybridCoreTests;
+			productName = FOXHybridCoreTests;
+			productReference = 66C0C42B2041478C002A3DA1 /* FOXHybridCoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		66C0C4352041478D002A3DA1 /* FOXHybridCoreUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66C0C4452041478D002A3DA1 /* Build configuration list for PBXNativeTarget "FOXHybridCoreUITests" */;
+			buildPhases = (
+				66C0C4322041478D002A3DA1 /* Sources */,
+				66C0C4332041478D002A3DA1 /* Frameworks */,
+				66C0C4342041478D002A3DA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66C0C4382041478D002A3DA1 /* PBXTargetDependency */,
+			);
+			name = FOXHybridCoreUITests;
+			productName = FOXHybridCoreUITests;
+			productReference = 66C0C4362041478D002A3DA1 /* FOXHybridCoreUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66C0C40B2041478C002A3DA1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = XFoxer;
+				TargetAttributes = {
+					66C0C4122041478C002A3DA1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					66C0C42A2041478C002A3DA1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 66C0C4122041478C002A3DA1;
+					};
+					66C0C4352041478D002A3DA1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 66C0C4122041478C002A3DA1;
+					};
+				};
+			};
+			buildConfigurationList = 66C0C40E2041478C002A3DA1 /* Build configuration list for PBXProject "FOXHybridCore" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 66C0C40A2041478C002A3DA1;
+			productRefGroup = 66C0C4142041478C002A3DA1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66C0C4122041478C002A3DA1 /* FOXHybridCore */,
+				66C0C42A2041478C002A3DA1 /* FOXHybridCoreTests */,
+				66C0C4352041478D002A3DA1 /* FOXHybridCoreUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66C0C4112041478C002A3DA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6684F3B920501B72006BF67F /* ExampleApp.html in Resources */,
+				66C94DF42047E8C200621677 /* sampleLocal.html in Resources */,
+				667B645A2046B99F000CC698 /* foxwebview_bridge_inject.js in Resources */,
+				66C0C4232041478C002A3DA1 /* LaunchScreen.storyboard in Resources */,
+				66C0C4202041478C002A3DA1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66C0C4292041478C002A3DA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66C0C4342041478D002A3DA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3480464176B51A9479EB9160 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FOXHybridCore/Pods-FOXHybridCore-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		40D74766007081BFA3DCE19A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FOXHybridCore/Pods-FOXHybridCore-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		587D0D60B3638E6E572EDCBC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FOXHybridCore-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66C0C40F2041478C002A3DA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66C0C41B2041478C002A3DA1 /* FOXTestViewController.m in Sources */,
+				66AE572620490A6500C1214D /* FOXWebBrowserViewController.m in Sources */,
+				66AE572420490A6500C1214D /* FOXWebViewResourceLoadAccessor.m in Sources */,
+				66601730204D648200D02862 /* FOXProgressView.m in Sources */,
+				66AE572820490A6500C1214D /* FOXDataSetPlaceholderView+FOXFactory.m in Sources */,
+				662F5157204963F9005552CE /* FOXNavigationViewController.m in Sources */,
+				66C0C4262041478C002A3DA1 /* main.m in Sources */,
+				66AE572720490A6500C1214D /* FOXDataSetPlaceholderView.m in Sources */,
+				666AD3D12044FF6700ED5516 /* FOXRootViewController.m in Sources */,
+				6684F31B204F8CA4006BF67F /* FOXBridgeOCEnumeration.m in Sources */,
+				66C0C4182041478C002A3DA1 /* FOXAppDelegate.m in Sources */,
+				6684F31E204F8EEB006BF67F /* FOXBridgeJSEnumeration.m in Sources */,
+				66AE572520490A6500C1214D /* FOXWebViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66C0C4272041478C002A3DA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66C0C4302041478C002A3DA1 /* FOXHybridCoreTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66C0C4322041478D002A3DA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66C0C43B2041478D002A3DA1 /* FOXHybridCoreUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		66C0C42D2041478C002A3DA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66C0C4122041478C002A3DA1 /* FOXHybridCore */;
+			targetProxy = 66C0C42C2041478C002A3DA1 /* PBXContainerItemProxy */;
+		};
+		66C0C4382041478D002A3DA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66C0C4122041478C002A3DA1 /* FOXHybridCore */;
+			targetProxy = 66C0C4372041478D002A3DA1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		66C0C4212041478C002A3DA1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66C0C4222041478C002A3DA1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		66C0C43D2041478D002A3DA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		66C0C43E2041478D002A3DA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		66C0C4402041478D002A3DA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 303E2670A5BA305B8F6A7E8C /* Pods-FOXHybridCore.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9CRCK2X73V;
+				GCC_PREFIX_HEADER = "Support Files/FOXHybridCore-Prefix.pch";
+				INFOPLIST_FILE = "Support Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xfoxer.vlc.FOXHybridCore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		66C0C4412041478D002A3DA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F508C05A4B09A1AC62BB0D3 /* Pods-FOXHybridCore.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9CRCK2X73V;
+				GCC_PREFIX_HEADER = "Support Files/FOXHybridCore-Prefix.pch";
+				INFOPLIST_FILE = "Support Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xfoxer.vlc.FOXHybridCore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		66C0C4432041478D002A3DA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FOXHybridCoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xfoxer.vlc.FOXHybridCoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FOXHybridCore.app/FOXHybridCore";
+			};
+			name = Debug;
+		};
+		66C0C4442041478D002A3DA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FOXHybridCoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xfoxer.vlc.FOXHybridCoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FOXHybridCore.app/FOXHybridCore";
+			};
+			name = Release;
+		};
+		66C0C4462041478D002A3DA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FOXHybridCoreUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xfoxer.vlc.FOXHybridCoreUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FOXHybridCore;
+			};
+			name = Debug;
+		};
+		66C0C4472041478D002A3DA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FOXHybridCoreUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xfoxer.vlc.FOXHybridCoreUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FOXHybridCore;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66C0C40E2041478C002A3DA1 /* Build configuration list for PBXProject "FOXHybridCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66C0C43D2041478D002A3DA1 /* Debug */,
+				66C0C43E2041478D002A3DA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66C0C43F2041478D002A3DA1 /* Build configuration list for PBXNativeTarget "FOXHybridCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66C0C4402041478D002A3DA1 /* Debug */,
+				66C0C4412041478D002A3DA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66C0C4422041478D002A3DA1 /* Build configuration list for PBXNativeTarget "FOXHybridCoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66C0C4432041478D002A3DA1 /* Debug */,
+				66C0C4442041478D002A3DA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66C0C4452041478D002A3DA1 /* Build configuration list for PBXNativeTarget "FOXHybridCoreUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66C0C4462041478D002A3DA1 /* Debug */,
+				66C0C4472041478D002A3DA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 66C0C40B2041478C002A3DA1 /* Project object */;
+}

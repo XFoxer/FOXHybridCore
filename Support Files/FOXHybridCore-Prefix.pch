@@ -1,0 +1,17 @@
+//
+//  FOXHybridCore-Prefix.pch
+//  FOXHybridCore
+//
+//  Created by XFoxer on 2018/3/2.
+//  Copyright © 2018年 XFoxer. All rights reserved.
+//
+
+#ifndef FOXHybridCore_Prefix_h
+#define FOXHybridCore_Prefix_h
+
+#import <Masonry/Masonry.h>
+#import <YYWebImage/YYWebImage.h>
+#import <DZNEmptyDataSet/UIScrollView+EmptyDataSet.h>
+//#import "UIViewController+FOXNavigationPopGesture.h"
+
+#endif /* FOXHybridCore_Prefix_h */
